@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Contact page">
+	    <meta name="author" content="Daniel Doh">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Mozaic Dance Team</title>
+
+		<!-- Bootstrap v5.0.0-beta3 -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+		<link href="custom.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	</head>
+
+    <body>
+        <div class="container">
+            <header class="row">
+                <div class="col-md-3">
+                    <img id="logo" src="images/logo-1.png" alt="mozaic logo">
+                </div> <!--end logo-->
+                <nav class="col-md-9">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="exec.html">Exec Board</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html" >Contact</a>
+                        </li>
+                      </ul>
+                </nav>
+            </header> <!-- end row header -->
+          
+            <div class="contact">
+                <div class="col-md-12">
+                    <h1>Contact Us</h1>
+                    <form action="mailto:mozaicdance@gmail.com">
+                        <label for="first">First Name</label>
+                        <input type="text" id="first" name="firstname" placeholder="Your name.." required>
+                        <label for="last">Last Name</label>
+                        <input type="text" id="last" name="lastname" placeholder="Your last name.." required>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Message..." style="height:80px" required></textarea>
+                        <input type="submit" value="Submit">
+                      </form>
+                </div>
+            </div>
+            </div>
+            <div class="social">
+                <div class="col-md-12">
+                    <h2>Email us or check our socials</h2>
+                </div>
+            <div class="media">
+                <div class="col-md-12">
+                    <h3>Our Socials:</h3>
+                    <ul>
+                        <li>Facebook: <a href="https://www.facebook.com/mozaicdanceteam/" target="_blank">Mozaic Facebook</a></li>
+                        <li>Youtube: <a href="https://www.youtube.com/channel/UCF3XAanutistMZGmY5cY_yw" target="_blank">Mozaic Youtube</a></li>
+                        <li>Instagram: <a href="https://www.instagram.com/mozaicdanceteam/?hl=en" target="_blank">Mozaic Instagram</a></li>
+                        <li>Email: <a href="mailto:mozaicdance@gmail.com">mozaicdance@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logo">
+                <div class="col-md-12">
+                    <img class="img-fluid" src="images/logo-1.png" alt="mozaic logo">
+                </div>
+            </div>
+
+                <footer class="padding-footer">
+                    <p>Website by Daniel Doh | Contact Information: <a href="mailto:dohdk@dukes.jmu.edu">dohdk@dukes.jmu.edu</a> | Mozaic Dance Team </p>
+                </footer>
+            <style>
+                .logo {
+                   display:block;
+                   text-align: center;
+                   
+                }
+                h1 {
+                    text-align: center;
+                    padding-top: 1em;
+                }
+                
+                h2 {
+                    text-align: center;
+                    padding-top: 1em;
+                    
+                }
+
+                .media {
+                    font-size: 20px;
+                    padding-left: 6em;
+                }
+
+                input[type=text], select, textarea {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid grey;
+                border-radius: 5px;
+                box-sizing: border-box;
+                margin-top: 2px;
+                margin-bottom: 10px;
+                resize: vertical;
+                }
+
+                input[type=submit] {
+                background-color: khaki;
+                color: black;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                }
+
+                input[type=submit]:hover {
+                background-color: beige;
+                }
+
+                .contact {
+                border-radius: 5px;
+                background-color: lightgrey;
+                padding: 20px;
+                }
+
+                
+            </style>
+</body>
+</html>
